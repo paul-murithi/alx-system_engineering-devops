@@ -30,9 +30,4 @@ What you should learn from this project:
 
 
 ### [5. Is the host on the network](./5-is_the_host_on_the_network)
-* 
 
----
-
-## Author
-* **Rory Fahy** - [rmf10003](https://github.com/rmf10003)
