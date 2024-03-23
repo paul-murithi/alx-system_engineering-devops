@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-lsof -i :98 | grep ":98"
+# a script that listens on poer 98 on localhost
+
+nc -l localhost 98
