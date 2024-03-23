@@ -1,7 +1,7 @@
-SendEnv LANG LC_*
-HashKnownHosts yes
-GSSAPIAuthentication yes
-PasswordAuthentication no
-IdentityFile ~/.ssh/school
-Host github.com
-  IdentityFile ~/.ssh/id_rsa
+# SSH Config File
+#
+Host web-01
+	Hostname 35.243.128.200
+	User ubuntu
+	PasswordAuthentication no
+	IdentityFile ~/.ssh/school
