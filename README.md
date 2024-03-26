@@ -1,46 +1,57 @@
-# alx-system_engineering-devops
-# General
-What does RTFM mean?
-What is a Shebang
-What is the Shell
-What is the shell
-What is the difference between a terminal and a shell
-What is the shell prompt
-How to use the history (the basics)
-# Navigation
-What do the commands or built-ins cd, pwd, ls do
-How to navigate the filesystem
-What are the . and .. directories
-What is the working directory, how to print it and how to change it
-What is the root directory
-What is the home directory, and how to go there
-What is the difference between the root directory and the home directory of the user root
-What are the characteristics of hidden files and how to list them
-What does the command cd - do
-# Looking Around
-What do the commands ls, less, file do
-How do you use options and arguments with commands
-Understand the ls long format and how to display it
-# A Guided Tour
-What does the ln command do
-What do you find in the most common/important directories
-What is a symbolic link
-What is a hard link
-What is the difference between a hard link and a symbolic link
-Manipulating Files
-What do the commands cp, mv, rm, mkdir do
-What are wildcards and how do they work
-How to use wildcards
-# Working with Commands
-What do type, which, help, man commands do
-What are the different kinds of commands
-What is an alias
-When do you use the command help instead of man
-Reading Man Pages
-How to read a man page
-What are man page sections
-What are the section numbers for User commands, System calls and Library functions
-# Keyboard Shortcuts for Bash
-Common shortcuts for Bash
-# LTS
-What does LTS mean?
+# 0x0C. Web server
+
+<p align="center">
+  <img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/266/8Gu52Qv.png" />
+</p>
+
+## Resource
+
+<details>
+<summary><a href="https://www.gnu.org/software/libc/manual/html_node/Processes.html#Processes">Child Process</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/bw6hYBS5/image.png' border='0' alt='image'/></a>
+</details>
+
+- [Background contenxt](https://www.youtube.com/watch?v=AZg4uJkEa-4)
+- [How the web works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+- [Nginx](https://en.wikipedia.org/wiki/Nginx)
+- [How to Configure Nginx](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-16-04)
+- [Root and sub domain](https://landingi.com/help/domains-vs-subdomains/)
+- [HTTP requests](https://www.tutorialspoint.com/http/http_methods.htm)
+- [HTTP redirection](https://moz.com/learn/seo/redirection)
+- [Not found HTTP response code](https://en.wikipedia.org/wiki/HTTP_404)
+- [Logs files on Linux](https://www.cyberciti.biz/faq/ubuntu-linux-gnome-system-log-viewer/)
+- [RFC 7231 (HTTP/1.1)](https://datatracker.ietf.org/doc/html/rfc7231)
+- [RFC 7540 (HTTP/2)](https://datatracker.ietf.org/doc/html/rfc7540)
+
+## Tasks
+
+<details>
+<summary><a href="./0-transfer_file">0. Transfer a file to your server</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/j2P4SmgY/image.png' border='0' alt='image'/></a>
+</details>
+
+<details>
+<summary><a href="./1-install_nginx_web_server">1. Install nginx web server</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/QMbf1FrY/image.png' border='0' alt='image'/></a>
+<a href='https://postimg.cc/621fsx68' target='_blank'><img src='https://i.postimg.cc/vTGqVGpt/image.png' border='0' alt='image'/></a>
+</details>
+
+<details>
+<summary><a href="./2-setup_a_domain_name">2. Setup a domain name</a></summary><br>
+<a href='https://postimg.cc/svdGgYqp' target='_blank'><img src='https://i.postimg.cc/L6htvvV0/image.png' border='0' alt='image'/></a>
+</details>
+
+<details>
+<summary><a href="./3-redirection">3. Redirection</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/tTmZ8GqZ/image.png' border='0' alt='image'/></a>
+</details>
+
+<details>
+<summary><a href="./4-not_found_page_404">4. Not found page 404</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/zvhdBrG6/image.png' border='0' alt='image'/></a>
+</details>
+
+<details>
+<summary><a href="./7-puppet_install_nginx_web_server.pp">5. Install Nginx web server (w/ Puppet)</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Vs2dxb0D/image.png' border='0' alt='image'/></a>
+</details>
